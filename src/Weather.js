@@ -15,7 +15,7 @@ export default function Weather(props) {
       city: response.data.name,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png",
+      icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),
     });
   }
@@ -43,7 +43,7 @@ export default function Weather(props) {
               <input
                 type="Search"
                 placeholder="Enter city..."
-                className="form"
+                className="form-control"
                 onChange={handleCityChange}
               />
             </div>
