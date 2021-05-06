@@ -12,6 +12,9 @@
 .Weather form {
   margin-bottom: 20px;
   border-color: #a89977;
+  border-radius: 10%;
+  line-height: 2;
+  width: 100%;
 }
 
 .Weather h1 {
