@@ -9,6 +9,10 @@
   background-image: linear-gradient(to top, #f0e2c7 0%, #fcfcfc 100%);
 }
 
+.Weather #cityAndDate {
+  color: black;
+}
+
 .Weather form {
   margin-bottom: 20px;
   border-color: #a89977;
