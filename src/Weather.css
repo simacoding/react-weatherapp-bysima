@@ -6,11 +6,7 @@
   margin: 30px auto;
   max-width: 600px;
   border-radius: 4px;
-  background-image: linear-gradient(to top, #f0e2c7 0%, #fcfcfc 100%);
-}
-
-.Weather #cityAndDate {
-  color: black;
+  background-image: linear-gradient(to top, #f7ebd3 0%, #fcfcfc 100%);
 }
 
 .Weather form {
@@ -54,7 +50,7 @@
   line-height: 1;
   position: relative;
   top: -34px;
-  color: #a1906b;
+  text-decoration: none;
 }
 
 .Weather canvas {
