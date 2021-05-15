@@ -6,7 +6,7 @@
   margin: 30px auto;
   max-width: 600px;
   border-radius: 4px;
-  background-image: linear-gradient(to top, #f7ebd3 0%, #fcfcfc 100%);
+  background-image: linear-gradient(to top, #f7ebd3 20%, #fcfcfc 40%);
 }
 
 .Weather form {
@@ -19,8 +19,12 @@
 
 .Weather h1 {
   color: black;
-  line-height: 28px;
+  line-height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: 100;
+  font-family: rage;
+  font-size: 70px;
 }
 
 .Weather ul {
@@ -51,12 +55,6 @@
   position: relative;
   top: -34px;
   text-decoration: none;
-}
-
-.Weather canvas {
-  height: 64px;
-  margin-right: 10px;
-  display: inline-block;
 }
 
 .Weather .button {

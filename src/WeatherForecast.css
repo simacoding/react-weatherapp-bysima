@@ -6,3 +6,13 @@
   opacity: 0.6;
   margin-left: 5px;
 }
+
+.WFD-container {
+  border: solid 0.5px #f7ebd3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background: #faf2e3;
+  background-image: linear-gradient(to top, #faf2e3 0%, #fcfcfc 100%);
+  box-shadow: 0 0 0.5em #ffffff;
+}
